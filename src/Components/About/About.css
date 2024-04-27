@@ -1,0 +1,178 @@
+.about-section {
+    text-align: center;
+    /* Center-align content */
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    /* Align items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+    margin-bottom: 50px;
+    /* Add margin at the bottom */
+}
+
+.left-image,
+.right-image {
+    max-width: 200px;
+    /* Set maximum width for the images */
+    margin: 0 20px;
+    /* Add margin between the images and the text */
+}
+
+.about-content {
+    flex: 1;
+    /* Allow the content to grow to fill available space */
+}
+
+.service-container {
+    text-align: center;
+    /* Center-align content */
+}
+
+.service-area {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute items evenly along the main axis */
+    margin-top: 20px;
+    /* Add margin at the top */
+}
+
+.service-item {
+    flex: 1;
+    /* Each item takes equal space */
+    margin: 0 10px;
+    /* Add margin around each item */
+}
+
+.service-item img {
+    max-width: 100%;
+    /* Ensure image doesn't exceed its container */
+}
+
+.program-container {
+    text-align: center;
+    /* Center-align content */
+}
+
+.program-area {
+    display: flex;
+    justify-content: space-between;
+    /* Distribute items evenly along the main axis */
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* Add margin at the top */
+}
+
+.program-item {
+    flex: 1;
+    /* Each item takes equal space */
+    margin: 0 10px;
+    /* Add margin around each item */
+}
+
+.program-item img {
+    max-width: 100%;
+    /* Ensure image doesn't exceed its container */
+}
+
+.about-menu {
+
+    margin: 0;
+    padding-top: 10px;
+    display: flex;
+    margin-left: 70px;
+}
+
+
+
+.about-menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-menu li:hover {
+    color: blue;
+    /* Change color to blue on hover */
+}
+
+.about-menu li {
+    margin: 10px;
+    /* Adjust spacing between items */
+}
+
+.employers img{
+    margin-left: 45px;
+    margin-right: 45px;
+    height: 60%;
+    width: 80%;
+}
+/* Footer.css */
+
+.made-with-love {
+    width: 100%;
+    text-align: center;
+    margin-top: auto; /* Push to the bottom */
+    color: #fff;
+  }
+
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-section input,
+  .footer-section textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .footer-section button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .footer-section button:hover {
+    background-color: #e64c3c;
+  }

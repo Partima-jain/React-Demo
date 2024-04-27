@@ -1,0 +1,86 @@
+.nav{
+    position: fixed;
+    top: 0; /* Stick the nav at the top of the screen */
+    width: 100%;
+    z-index: 1000; /* Move background color from .nav .headerlist to .nav */
+    padding: 10px 0;
+}
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    display: flex;
+    margin-left: 70px;
+}
+  
+.nav-menu li {
+    font-size: 15px;
+    margin-right: 20px; /* Adjust the spacing between list items as needed */
+}
+.nav-menu li:hover {
+    color: blue; /* Change color to blue on hover */
+  }
+.nav-img{
+    padding-top: 10px;
+    height: 60px;
+    width: 150px;
+    margin-left: 70px;
+}
+.search-img{
+    padding-top: 15px;
+    height: 50px;
+    width: 580px;
+    margin-left: 600px;
+
+}
+.nav-logo{
+    display: flex ;
+    margin-left: 100;
+}
+
+.headerlist{
+    display: flex;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: 2px solid rgb(14, 14, 40);
+}
+.headerlist li{
+    margin-left: 10px;
+    color: white;
+    font-size: 13px;
+    
+}
+
+.nav .headerlist{
+  background-color: rgb(4, 4, 34);
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerlist .logo1{
+    margin-left: 80px;
+}
+.headerlist .logo{
+    margin-left: 10px;
+}
+.headerlist .right-align1{
+    margin-left: 600px;
+}
+.headerlist .right-align1{
+    margin-right: 20px;
+}
+.headerlist .right-align2{
+    margin-right: 80px;
+}
+.headerlist i {
+    font-size: 20px; /* Adjust the size as needed */
+}
+
+.right-align {
+    margin-left: auto;
+  }
+  
